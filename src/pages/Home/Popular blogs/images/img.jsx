@@ -1,0 +1,1 @@
+export * from './img1.jpeg'

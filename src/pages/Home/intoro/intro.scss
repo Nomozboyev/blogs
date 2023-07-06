@@ -1,0 +1,84 @@
+.overlay {
+  height: 100%;
+  background-color: #0000007e;
+}
+.intro {
+  width: 100%;
+  height: 720px;
+  color: #fff;
+  margin-bottom: 94px;
+  
+
+  background-image: url(./img/introBgImg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .intro__div {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    // margin-top: 128px;
+  }
+
+  .content {
+    max-width: 800px;
+    min-height: 400px;
+    margin-top: 128px;
+
+    .introStatus {
+      margin-bottom: 24px;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 20px;
+      letter-spacing: 3px;
+
+      .cap {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-align: left;
+      }
+    }
+  }
+  .introName {
+    margin-bottom: 24px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: left;
+  }
+  .introData {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  .introTitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 48px;
+  }
+  .introBtn {
+    width: 25px 50px;
+    padding: 8px 12px;
+    color: #232536;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    background-color: #ffd050;
+  }
+}

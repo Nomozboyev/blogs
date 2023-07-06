@@ -1,0 +1,30 @@
+@use '../../styles/variables' as *;
+@use '../../styles/base' as *;
+@use '../../styles/mixins' as *;
+
+.footer {
+  background: $color-first;
+  padding: 54px 0;
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left {
+      max-width: 361px;
+      p {
+        color: #fff;
+        font-size: 16px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        opacity: 0.7;
+      }
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 27px;
+    }
+  }
+}

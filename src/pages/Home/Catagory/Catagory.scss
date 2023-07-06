@@ -1,0 +1,62 @@
+.Catagory {
+  width: 100%;
+  min-height: 332px;
+  margin-bottom: 73px;
+  .catagoryTytle {
+    margin: 0px, auto;
+    margin-bottom: 72px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+  }
+  .catagoryCardList {
+    display: flex;
+    width: 100%;
+    gap: 32px;
+    justify-content: space-between;
+    .catagoryCard {
+      border: 1px solid #6d6e76;
+      padding: 32px;
+
+      .icon1 {
+        margin-bottom: 16px;
+      }
+      .icon {
+        padding: 12px;
+        margin-bottom: 16px;
+      }
+      .catagoryCardTytl {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1px;
+        text-align: left;
+        margin-bottom: 4px;
+      }
+      .catagoryCardText {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #6d6e76;
+      }
+    }
+    .catagoryCard:hover {
+      background-color: #FFD050;
+      .icon {
+        background: white;
+        display: inline-block;
+        border-radius:10px
+
+      }
+      .icon1{
+         background: white;
+        display: inline-block;
+        border-radius:10px
+      }
+    }
+  }
+}

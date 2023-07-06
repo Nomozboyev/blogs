@@ -1,0 +1,99 @@
+@use "../../styles/variables" as *;
+@use "../../styles/base" as *;
+@use "../../styles/mixins" as *;
+
+.about {
+  min-height: calc(100vh - 221px);
+}
+.abaoutIntro {
+  margin-top: 56px;
+  width: 100%;
+  height: 582px;
+  margin-bottom: 69px;
+  display: flex;
+  gap: 54px;
+  padding: 83px 87px 109px;
+  background-color: #f4f0f8;
+  .rightCard,
+  .leftCard {
+    h4 {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-align: left;
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -1px;
+      text-align: left;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+}
+.sectionTop {
+  display: flex;
+  width: 100%;
+  min-height: 480px;
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 128px;
+  .sectionTop__leftCard {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    h3 {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -2px;
+      text-align: left;
+    }
+    h4 {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+    }
+  }
+  img {
+    width: 624px;
+    height: 480px;
+  }
+}
+.sectionBootom {
+  display: flex;
+  width: 100%;
+  min-height: 480px;
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 128px;
+  .sectionBootom__rightCard {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    h3 {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -2px;
+      text-align: left;
+    }
+    h4 {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+    }
+  }
+  img {
+    width: 624px;
+    height: 480px;
+  }
+}

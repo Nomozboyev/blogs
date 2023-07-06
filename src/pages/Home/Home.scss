@@ -1,0 +1,7 @@
+@use '../../styles/variables' as *;
+@use '../../styles/base' as *;
+@use '../../styles/mixins' as *;
+
+.home {
+  min-height: calc(100vh - 221px);
+}
